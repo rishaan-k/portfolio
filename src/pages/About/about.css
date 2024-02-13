@@ -1,0 +1,21 @@
+.imgpage{
+    text-align: center;
+    justify-content: center;
+  }
+
+.image{
+    display:flex;
+    text-align: center;
+  
+    justify-content: center;
+  }
+
+  .draggable {
+    position: absolute;
+    cursor: grab;
+    user-select: none;
+    }
+
+  .draggableText{
+    padding: 5px;
+  }

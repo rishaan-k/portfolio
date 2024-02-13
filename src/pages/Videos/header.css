@@ -1,0 +1,47 @@
+.VideoHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.VideoText{
+    display: flex;
+    flex-flow: row;
+  }
+  .CenterText{
+    letter-spacing: -3px;
+    text-align: center;
+    line-height: 90%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 48pt;
+    color: #FDE400;
+    transition: 0.3s;
+    text-decoration: none;
+    padding-bottom: 4px;
+  }
+
+  .CenterText:hover {
+    color: #c52026;
+    
+  }
+
+  .OuterText{
+    letter-spacing: -3px;
+    text-align: center;
+    line-height: 90%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 48pt;
+    color: #c52026;
+    transition: 0.1s;
+    text-decoration: none;
+    padding-bottom: 4px;
+    white-space: nowrap;
+  }
+
+  .headerwrapper{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0,47,75,0) 95%);
+
+}

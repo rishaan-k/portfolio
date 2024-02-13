@@ -1,38 +1,151 @@
-.App {
-  text-align: center;
+body{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  font-size: 16pt;
+  background-color: #1c1612;
+  color: #c52026;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  50% {
+    opacity: 0;
+ }
+  100% {
+      opacity: 1;
+   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.tile{
+  height: 100%;
+}
+/*
+.wrapper{
+  transition-property: opacity;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  background: url("bg4.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: repeat;
+  animation: animate 120s linear infinite;
+}
+
+@keyframes animate {
+  from{
+    background-position: 0 0;
+  }
+  to{
+    background-position: 3840px 2160px;
   }
 }
+*/
+::-moz-selection { /* Code for Firefox */
+  color: black;
+  background: #c52026;
+}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+::selection {
+  color: black;
+  background: #c52026;
+}
+.App{
+  animation: fadeInAnimation ease 0.3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+
+
+.Header{
+  display:flex;
+  height: 20vh;
+  text-align: center;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #c52026;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16pt;
+  font-weight: 800;
+}
+/*
+.HeaderBox{
+  width: 350px;
+  margin-top: 20px;
+  background-color: black ;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.Logo{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 42pt;
+  color: #FDE400;
+}
+*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+li {
+  color: #c52026;
+  display: inline;
+}
+
+.navitems {
+  padding: 15px;
+}
+
+.About{
+  animation: fadeInAnimation ease 0.3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.link {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.card{
+  display:flex;
+  width: 30vw;
+  height: 10vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.Buttons {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row{
+  
+  display:flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.LatestVideo{
+  display:flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.groundfloor{
+  width: 100%;
 }

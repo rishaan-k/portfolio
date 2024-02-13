@@ -1,0 +1,51 @@
+
+.videos{
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.ParentCard{
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.VideoCard{
+    animation: fadeInAnimation ease 0.3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    width: 700px;
+    padding: 10px;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.Thumbnail{
+    width: 640px;
+    height: 360px;
+  }
+
+
+  .wrapper{
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    background: url("bg4.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    animation: animate 120s linear infinite;
+  }
+  
+  @keyframes animate {
+    from{
+      background-position: 0 0;
+    }
+    to{
+      background-position: 3840px 2160px;
+    }
+  }

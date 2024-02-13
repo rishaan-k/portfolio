@@ -1,0 +1,40 @@
+
+.title{
+    letter-spacing: -3px;
+    text-align: center;
+    line-height: 90%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 20pt;
+    color: #FDE400;
+    transition: 0.1s;
+    text-decoration: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 4px;
+  }
+
+
+.Thumbnail{
+    width: 640px;
+    height: 360px;
+    transition: 0.3s;
+
+  }
+
+
+.videolink{
+    text-decoration: none;
+
+}
+
+.videolink:hover  .Thumbnail{
+    filter: grayscale(100%)
+  }
+
+.videolink:hover  .title{
+    color: #c52026;
+    cursor: pointer;
+    text-decoration: underline;
+
+}

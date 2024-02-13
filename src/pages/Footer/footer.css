@@ -1,0 +1,53 @@
+
+.Footer{
+
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16pt;
+    color: white;
+    font-weight: 100;
+    
+  }
+  
+  .FooterBox{
+    width: 100vw;
+    text-align: center;
+  }
+  
+  .FooterElements{
+    padding: 10px;
+    text-align: center;
+  
+  }
+  .Copyright{
+    padding: 10px;
+  }
+  .imglogo{
+    width: 25px;
+    height: 25px;
+    padding: 2px;
+    transition: 0.3s;
+
+  }
+  .imglogo:hover{
+    filter: brightness(1.25);
+    }
+
+  .TinyLinks{
+    padding: 5px;
+  }
+  .mail{
+    color: white; 
+    text-decoration: none;
+    
+  }
+  .mail:hover {
+    text-decoration: underline;
+  }
+  .mailtext{
+    font-weight: 400;
+  }
+  

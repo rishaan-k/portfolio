@@ -1,25 +1,110 @@
-import logo from './logo.svg';
 import './App.css';
+import Videos from "./pages/Videos/videos"
+import About from "./pages/About/about"
+import Footer from "./pages/Footer/footer"
+import Latest from './pages/Latest/latest';
+import GroundFloor from './groundfloor.png';
+
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <section className='tile'>
+      <Latest/>
+      </section>
+      <section className='tile'id='tile2'>
+      <About/>
+      </section>
+      <section className='tile'>
+      <Videos/>
+      </section>
+      {/*
+      <section className='tile'>
+      <VidCard/>
+      </section>
+  */}
+
+      <section className='tile'>
+      <img src={GroundFloor} className='groundfloor'/>
+      </section>
+
+      <section className='tile'>
+      <Footer/>
+      </section>
+      
     </div>
-  );
+  )
+
+  /*(
+    <div className='wrapper'>
+
+      <Router>
+      <br/>
+      <div className='Header'>
+      
+        <div className='HeaderBox'>
+          <div className='Logo'>
+            <RLink to="/" className='link'>rishaan</RLink>
+          </div>
+          <br/><br/>
+          <div className='index'>
+            <ul>
+              <div>
+                <li className='navitems'>
+                  <RLink to="/" className='link'>Home</RLink>
+                </li>
+                <li className='navitems'>
+                  <RLink to="/videos" className='link'>Videos</RLink>
+                </li>
+                <li className='navitems'>
+                  <RLink to="/about" className='link'>About</RLink>
+                </li>
+              </div>
+            </ul>
+            
+          </div>
+        </div>
+      </div>
+      
+    <Switch>
+      <Route path="/" element={<Home/>} />
+      <Route path="/videos" element={<Videos/>} />
+      <Route path="/about" element={<About/>} />
+    </Switch>
+    </Router>
+    <br/><br/><br/>
+    <div className='Footer'>
+      <div className='FooterBox'>
+        <div className='FooterElements'>
+          
+          <div>
+            <b>Contact:</b> 
+          </div>
+
+          <div className='mailtext'>
+            <a href="mailto:rishaan.business@gmail.com" className='mail'>rishaan.business@gmail.com</a>
+          </div>
+
+          <div className='TinyLinks'>
+          <a href="https://www.youtube.com/Rishaan" target="_blank"><img class = "imglogo" src={youtube}/></a>
+          <a href="https://www.twitch.tv/rishaan" target="_blank"><img class = "imglogo" src={twitch}/></a>
+          <a href="https://instagram.com/rishaanlmao" target="_blank"><img class = "imglogo" src={instagram}/></a>
+          <a href="https://twitter.com/rishaanlmao" target="_blank"><img class = "imglogo" src={twitter}/></a>
+          <a href="https://discord.com/invite/eZbaeFm" target="_blank"><img class = "imglogo" src={discord}/></a>
+          </div>
+          
+          <div className='Copyright'>© Rishaan 2022</div>
+        
+        </div>
+      </div>
+    </div>
+    
+    </div>
+  );*/
 }
 
 export default App;
