@@ -43,6 +43,8 @@
     font-weight: 800;
     font-size: 72pt;
     color: #FDE400;
+    filter: drop-shadow(5px 5px 5px black);
+
 }
 
 .centertext{
@@ -87,7 +89,9 @@
 }
 
 .text{
-    transition: 0.3s
+    transition: 0.3s;
+    filter: drop-shadow(5px 5px 5px black);
+
 }
 .text:hover{
     color: #c52026;
@@ -121,6 +125,8 @@
  .buttonspace{
     transition: 0.6s;
     animation: fadeIn ease-in-out 3s ;
+    filter: drop-shadow(5px 5px 5px black);
+
  }
 
   .buttonspace:hover {

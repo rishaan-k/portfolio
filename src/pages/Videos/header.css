@@ -24,6 +24,7 @@
 
   .CenterText:hover {
     color: #c52026;
+    cursor:pointer;
     
   }
 
@@ -42,6 +43,7 @@
   }
 
   .headerwrapper{
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0,47,75,0) 95%);
+    filter: drop-shadow(5px 5px 5px black);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0,47,75,0) 30%);
 
 }

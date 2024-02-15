@@ -11,7 +11,7 @@ import {
 
 
 function handleScroll() {
-    var myElement = document.getElementById('tile2');
+    var myElement = document.getElementById('about_tile');
     var topPos = myElement.offsetTop;
 
     window.scrollTo({
@@ -63,8 +63,9 @@ const Latest = () => {
             </div>
             <div className='welcome'>
                 <p align="right" className='text'>
-                welcome to the <br/>
-                ground floor.
+
+                Full Stack Developer &<br/>
+                Machine Learning Enthusiast
                 </p>
             </div>
         </div>  

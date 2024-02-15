@@ -1,3 +1,8 @@
+.Main{
+  height: 102vh;
+  width: 100vw;
+}
+
 .imgpage{
     text-align: center;
     justify-content: center;
@@ -23,20 +28,15 @@
     font-size: 20pt;
     padding: 5px;
     color: white;
-    
+    text-decoration: underline;
   }
   
   .navBarItem:hover{
     color: #FDE500;
-    text-decoration-color: #FDE500;
     cursor: pointer;
     transition: ease-in-out 0.3s
   }
 
   .navBarItem{
     padding: 10px;
-    text-decoration: underline;
-
-    text-decoration-color: white;
-
   }

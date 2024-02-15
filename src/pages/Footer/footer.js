@@ -13,14 +13,14 @@ const Footer = () => {
     </div>
 
     <div className='mailtext'>
-      <a href="mailto:rishaan.business@gmail.com" className='mail'>rishaan.business@gmail.com</a>
+      <a href="mailto:rakumar2@wisc.edu" className='mail'>rakumar2@wisc.edu</a>
     </div>
 
     <div className='TinyLinks'>
     
     </div>
     
-    <div className='Copyright'>© Rishaan 2022</div>
+    <div className='Copyright'>©2024</div>
   
   </div>
 </div>

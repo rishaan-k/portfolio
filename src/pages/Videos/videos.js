@@ -6,7 +6,7 @@ import Header from "./header"
 const Videos = () => {
     return(
       <div className='wrapper'>
-          <Header title="films"/>
+          <Header title="lol"/>
   
           <br/>
         <div className='videos'>

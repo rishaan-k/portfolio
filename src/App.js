@@ -3,7 +3,11 @@ import Videos from "./pages/Videos/videos"
 import About from "./pages/About/about"
 import Footer from "./pages/Footer/footer"
 import Latest from './pages/Latest/latest';
-import GroundFloor from './groundfloor.png';
+import Projects from "./pages/Projects/projects"
+import Skills from "./pages/Skills/skills"
+import Extracurriculars from "./pages/Extracurriculars/extracurriculars"
+
+
 
 window.onbeforeunload = function () {
   window.scrollTo(0, 0);
@@ -13,29 +17,28 @@ function App() {
 
   return (
     <div>
-      <section className='tile'>
-      <Latest/>
+      <section className='tile' id="home_tile">
+        <Latest />
       </section>
-      <section className='tile'id='tile2'>
-      <About/>
+      <section className='tile' id='about_tile'>
+        <About />
       </section>
-      <section className='tile'>
-      <Videos/>
-      </section>
-      {/*
-      <section className='tile'>
-      <VidCard/>
-      </section>
-  */}
-
-      <section className='tile'>
-      <img src={GroundFloor} className='groundfloor'/>
+      <section className='tile' id="projects_tile">
+        <Projects />
       </section>
 
-      <section className='tile'>
-      <Footer/>
+
+      <section className='tile' id="skills_tile">
+        <Skills />
       </section>
-      
+
+      <section className='tile' id="extracurriculars_tile">
+      <Extracurriculars />
+      </section>
+      <section className='tile' id='contact_tile'>
+        <Footer />
+      </section>
+
     </div>
   )
 
