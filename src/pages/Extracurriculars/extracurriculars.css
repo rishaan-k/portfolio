@@ -1,42 +1,47 @@
 .Main{
-  height: 102vh;
-  width: 100vw;
+  width: 99vw;
 }
-
-.imgpage{
-    text-align: center;
-    justify-content: center;
+  .ECCard{
+    margin-bottom: 10vmin;
+    margin-left: 10vmin;
+    margin-right: 10vmin;
+    transition: 0.3s ease-in-out;
   }
 
-.image{
-    display:flex;
-    text-align: center;
-  
-    justify-content: center;
+  .ECCard:hover{
+    cursor: pointer;
+    opacity: 80%;
   }
 
-  .draggable {
-    position: absolute;
-    cursor: grab;
-    user-select: none;
+  .eclink{
+    text-decoration: none;
+  }
+
+  .cardText{
+    font-size: 12pt;
+    text-wrap: wrap;
+    max-width: 480px;
+    font-weight: 400;
+    text-align: center;
     }
 
-  .navBar{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    font-size: 20pt;
-    padding: 5px;
-    color: white;
-    text-decoration: underline;
+.cardimage{
+    height: 42vmin;
   }
-  
-  .navBarItem:hover{
-    color: #FDE500;
-    cursor: pointer;
-    transition: ease-in-out 0.3s
+  .ECCardSpace{
+    height: 100%;
+    width: 99vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
   }
 
-  .navBarItem{
-    padding: 10px;
+  .ECintroText{
+    width: 80vw;
+  }
+  .ECIntro{
+    display: flex;
+    justify-content: center;
   }

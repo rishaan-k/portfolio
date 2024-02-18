@@ -1,42 +1,31 @@
 .Main{
-    height: 102vh;
-    width: 100vw;
+    width: 99vw;
+    height: 100%;
   }
 
-.imgpage{
-    text-align: center;
-    justify-content: center;
+  .projectCardSpace{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 99vw;
   }
 
-.image{
-    display:flex;
-    text-align: center;
-  
-    justify-content: center;
+  .cardimage{
+    height: 42vmin;
   }
 
-  .draggable {
-    position: absolute;
-    cursor: grab;
-    user-select: none;
+  .cardText{
+    font-size: 12pt;
+    text-wrap: wrap;
+    max-width: 480px;
+    font-weight: 400;
+    text-align: left;
     }
 
-  .navBar{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    font-size: 20pt;
-    padding: 5px;
-    color: white;
-    text-decoration: underline;
-  }
-  
-  .navBarItem:hover{
-    color: #FDE500;
-    cursor: pointer;
-    transition: ease-in-out 0.3s
-  }
-
-  .navBarItem{
-    padding: 10px;
+  .projectCard{
+    margin-bottom: 10vmin;
+    margin-left: 10vmin;
+    margin-right: 10vmin;
   }

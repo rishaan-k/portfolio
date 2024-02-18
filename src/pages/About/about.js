@@ -68,7 +68,7 @@ const About = () => {
           <p className='navBarItem' onClick={handleExtracurricularScroll}>Extracurriculars</p>
         </div>
 
-        <p>Hi, I'm Rishaan </p>
+        <p>Hello, I'm Rishaan Kumar, a student that's pursuing a degree in Computer Science and Communication Arts on the Radio-TV-Film track at the University of Wisconsin-Madison </p>
         <a target='_blank' href={resume}>
         <Button variant="contained">Resume</Button>
         </a>

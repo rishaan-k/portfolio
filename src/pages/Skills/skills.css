@@ -1,41 +1,49 @@
 .Main{
-  height: 102vh;
-  width: 100vw;
+  width: 99vw;
 }
-.imgpage{
-    text-align: center;
-    justify-content: center;
+
+  .skillsCardSpace{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 99vw;
   }
 
-.image{
-    display:flex;
-    text-align: center;
-  
-    justify-content: center;
+  .cardimage{
+    height: 42vmin;
+    
   }
 
-  .draggable {
-    position: absolute;
-    cursor: grab;
-    user-select: none;
+  .skillsCardText{
+    font-size: 16pt;
+    text-wrap: wrap;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+
     }
 
-  .navBar{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    font-size: 20pt;
-    padding: 5px;
-    color: white;
-    text-decoration: underline;
-  }
-  
-  .navBarItem:hover{
-    color: #FDE500;
-    cursor: pointer;
-    transition: ease-in-out 0.3s
+  .skillsCard{
+    margin-bottom: 10vmin;
+    padding-left: 5px;
+    padding-right: 5px;
+    min-width: 350px;
   }
 
-  .navBarItem{
-    padding: 10px;
+  .dsList{
+    list-style-type:'▶️ ';
+    list-style-position: inside;
+    padding-right: 35px;
+
+  }
+
+  li{
+    padding-bottom:10px;
+
+  }
+
+  .skillscardimage{
+    height: 25vmin;
   }
