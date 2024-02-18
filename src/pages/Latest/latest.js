@@ -62,11 +62,7 @@ const Latest = () => {
                 </IconContext.Provider>
             </div>
             <div className='welcome'>
-                <p align="right" className='text'>
-
-                Full Stack Developer &<br/>
-                Machine Learning Enthusiast
-                </p>
+               
             </div>
         </div>  
         </div>

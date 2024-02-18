@@ -39,9 +39,10 @@
   }
 
   .ECintroText{
-    width: 80vw;
+    width: 65vw;
   }
   .ECIntro{
     display: flex;
     justify-content: center;
   }
+

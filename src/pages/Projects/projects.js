@@ -27,7 +27,6 @@ const Projects = () => {
         <Header title="projects" />
         <br />
 
-        <p>Hi, I'm Rishaan </p>
         <br />
         <div className='projectCardSpace'>
           <div className='projectCard'>

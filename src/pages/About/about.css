@@ -20,7 +20,7 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    font-size: 20pt;
+    font-size: 18pt;
     padding: 5px;
     color: white;
     
@@ -39,3 +39,42 @@
     text-decoration-color: white;
 
   }
+
+  .rishaan_photo{
+    width: 85vmin;
+  }
+  .aboutInfoSpace{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    max-width: 100vw;
+    flex-wrap: wrap;
+  }
+  .aboutInfoPic{
+    padding-left: 20px;
+  }
+  .aboutInfoText{
+    width: 70vmin;
+    padding: 20px;
+    font-size: 3vmin;
+  }
+  .button{
+    padding-inline: 50px;
+  }
+  .buttonRow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .buttonsSpace{
+    width:70vmin;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+  .buttonText{
+    font-size: 12pt;
+
+  }
+  

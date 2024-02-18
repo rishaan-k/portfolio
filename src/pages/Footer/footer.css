@@ -51,4 +51,21 @@
   .mailtext{
     font-weight: 400;
   }
+    .navBar{
+    font-weight: 800;
+  }
+  
+  .navBarItem:hover{
+    color: #FDE500;
+    text-decoration-color: #FDE500;
+    cursor: pointer;
+    transition: ease-in-out 0.3s
+  }
+
+  .navBarItem{
+    padding: 10px;
+    text-decoration: underline;
+    text-decoration-color: white;
+
+  }
   
