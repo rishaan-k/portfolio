@@ -38,7 +38,8 @@
     }
 
   .TinyLinks{
-    padding: 5px;
+    padding: 10px;
+    font-size: 16pt;
   }
   .mail{
     color: white; 
@@ -67,5 +68,15 @@
     text-decoration: underline;
     text-decoration-color: white;
 
+  }
+  .tinylinka{
+    color: white;
+    padding-inline: 10px;
+    transition: 0.3 ease-in-out;
+  }
+
+  .tinylinka:hover{
+    color: #FDE500;
+    cursor: pointer;    
   }
   

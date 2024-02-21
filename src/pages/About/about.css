@@ -20,10 +20,10 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    font-size: 18pt;
+    font-size: 16pt;
     padding: 5px;
     color: white;
-    
+    flex-wrap: wrap;    
   }
   
   .navBarItem:hover{
@@ -34,10 +34,8 @@
   }
 
   .navBarItem{
-    padding: 10px;
     text-decoration: underline;
     text-decoration-color: white;
-
   }
 
   .rishaan_photo{
@@ -57,7 +55,7 @@
   .aboutInfoText{
     width: 70vmin;
     padding: 20px;
-    font-size: 3.5vmin;
+    font-size: 3.75vmin;
   }
   .button{
     padding-inline: 50px;

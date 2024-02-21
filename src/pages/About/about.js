@@ -66,7 +66,7 @@ const About = () => {
           <p className='navBarItem' onClick={handleHomeScroll}>Home</p>
           <p className='navBarItem' onClick={handleProjectsScroll}>Projects</p>
           <p className='navBarItem' onClick={handleSkillsScroll}>Skills</p>
-          <p className='navBarItem' onClick={handleExtracurricularScroll}>Extracurriculars</p>
+          <p className='navBarItem' onClick={handleExtracurricularScroll}>Activities</p>
         </div>
 
         <div className='aboutInfoSpace'>
@@ -77,7 +77,7 @@ const About = () => {
             <div className='aboutInfoText'>
               <p>Hello, I'm Rishaan Kumar, a student that's pursuing a degree in Computer Science and Communication Arts on the Radio-TV-Film track at the University of Wisconsin-Madison. </p>
               <p>I'm interested in Software Engineering, Front-End Web Development and Design, Machine Learning and much more! I've made a couple of projects that use APIs in ReactJS (see below) to implement Web Based Applications.</p>
-              <p>I'm also incredibly capitvated by media particularly film and music. I'm the Video Director for ALT Magazine on my campus, and I host a radio show every week on WSUM 91.7FM</p>
+              <p>I'm also incredibly capitvated by media particularly film and music. I'm the Video Director for ALT Magazine on my campus, and I host a radio show every week on WSUM 91.7FM.</p>
               <p>Feel free to explore this website along with my resume and don't hestitate to reach to me on my LinkedIn or email!</p>
             </div>
 

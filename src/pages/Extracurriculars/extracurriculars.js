@@ -25,7 +25,7 @@ const Extracurriculars = () => {
       
 
         <div className='imgpage'>
-          <Header title="extracurriculars" />
+          <Header title="activities" />
           <br />
           <div className='ECIntro'>
           <p className='ECintroText'>These are different student organizations and projects that I am part of! They encompass most of my interests outside of Tech! </p>

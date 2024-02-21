@@ -6,7 +6,7 @@ body{
   font-size: 16pt;
   background-color: #1c1612;
   color: #c52026;
-
+transition: 0.3s
 }
 
 @keyframes fadeInAnimation {

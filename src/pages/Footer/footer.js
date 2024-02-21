@@ -1,5 +1,8 @@
 import React from 'react';
 import './footer.css';
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+
 
 
 const Footer = () => {
@@ -70,7 +73,7 @@ const Footer = () => {
           <p className='navBarItem' onClick={handleAboutScroll}>About</p>
           <p className='navBarItem' onClick={handleProjectsScroll}>Projects</p>
           <p className='navBarItem' onClick={handleSkillsScroll}>Skills</p>
-          <p className='navBarItem' onClick={handleExtracurricularScroll}>Extracurriculars</p>
+          <p className='navBarItem' onClick={handleExtracurricularScroll}>Activities</p>
         </div>
         <div className='FooterElements'>
 
@@ -83,7 +86,12 @@ const Footer = () => {
           </div>
 
           <div className='TinyLinks'>
-
+            <a href='https://www.linkedin.com/in/rishaan-kumar/' className='tinylinka'>
+            <FaLinkedin size={45}/>
+            </a>
+            <a href='https://github.com/rishaan-k' className='tinylinka'>
+            <FaGithub size={45}/>
+            </a>
           </div>
 
           <div className='Copyright'>©2024</div>
